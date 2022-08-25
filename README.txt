@@ -52,3 +52,7 @@ Sample for tomcat8 artifacts: mvn clean install -Prun-its -Ptc-staging -DtcStage
 
 Sample for tomcat7 artifacts: mvn clean install -Prun-its -Ptc-staging -DtcStagedReleaseUrl=stagingrepositoryurl -Dtomcat7Version=7.x
 
+Install to local
+------------------
+mvn clean install -pl tomcat9-maven-plugin -am
+
